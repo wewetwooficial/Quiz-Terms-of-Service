@@ -3,41 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Termos de Uso / Terms of Service - Quiz & Games Videos</title>
+  <title>Terms of Service - Quiz & Games Videos</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       max-width: 900px;
       margin: 40px auto;
       padding: 20px;
-      line-height: 1.6;
+      line-height: 1.7;
       color: #222;
-      background-color: #f9f9f9;
+      background-color: #f5f5f5;
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       color: #111;
     }
 
     .section {
-      background: white;
+      background: #fff;
+      padding: 25px;
+      border-radius: 14px;
+      margin-bottom: 35px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+
+    .language-selector {
+      text-align: center;
+      margin-bottom: 35px;
       padding: 20px;
-      border-radius: 10px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+
+    .language-selector h2 {
+      margin-top: 0;
       margin-bottom: 20px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .language-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .language-buttons a {
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+      background: #f0f0f0;
+      padding: 12px 20px;
+      border-radius: 12px;
+      transition: 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+    }
+
+    .language-buttons a:hover {
+      background: #e0e0e0;
+      transform: scale(1.03);
+    }
+
+    .flag {
+      font-size: 28px;
     }
 
     hr {
-      margin: 40px 0;
+      margin: 50px 0;
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .top-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      color: #0066cc;
+    }
+
+    .top-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>Termos de Uso / Terms of Service</h1>
+  <h1 style="text-align:center;">
+    Terms of Service / Termos de Uso
+  </h1>
 
-  <div class="section">
-    <h2>Português (BR)</h2>
+  <!-- Âncoras de idioma -->
+  <div class="language-selector" id="top">
+    <h2>🌎 Selecione o idioma / Select your language</h2>
+
+    <div class="language-buttons">
+      <a href="#pt-br">
+        <span class="flag">🇧🇷</span>
+        Português
+      </a>
+
+      <a href="#en">
+        <span class="flag">🇺🇸</span>
+        English
+      </a>
+    </div>
+  </div>
+
+  <!-- Português -->
+  <div class="section" id="pt-br">
+    <h2>🇧🇷 Português (Brasil)</h2>
 
     <p><strong>Última atualização:</strong> Maio de 2026</p>
 
@@ -84,12 +168,15 @@
     <p>
       Estes termos podem ser alterados a qualquer momento sem aviso prévio.
     </p>
+
+    <a class="top-link" href="#top">⬆ Voltar ao topo</a>
   </div>
 
   <hr />
 
-  <div class="section">
-    <h2>English</h2>
+  <!-- Inglês -->
+  <div class="section" id="en">
+    <h2>🇺🇸 English</h2>
 
     <p><strong>Last updated:</strong> May 2026</p>
 
@@ -136,6 +223,8 @@
     <p>
       These terms may be updated or modified at any time without prior notice.
     </p>
+
+    <a class="top-link" href="#top">⬆ Back to top</a>
   </div>
 
 </body>
