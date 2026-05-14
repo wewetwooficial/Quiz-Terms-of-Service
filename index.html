@@ -3,18 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Para a versão 16x16 PNG -->
-  <link rel="icon" type="image/jpeg" sizes="16x16" href="logo_16x16">
   
-  <!-- Para a versão 32x32 PNG -->
-  <link rel="icon" type="image/jpeg" sizes="32x32" href="logo_32x32">
-  
-  <link rel="icon" type="image/jpeg" sizes="32x32" href="logo_48x48.jpg">
-  <title>Terms of Service - Quiz & Games Videos</title>
+  <!-- Favicons corrigidos -->
+  <link rel="icon" type="image/jpeg" sizes="16x16" href="logo_16x16.jpg">
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="logo_32x32.jpg">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>Terms of Service - W2 Quiz & Games</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Arial, sans-serif;
       max-width: 900px;
       margin: 40px auto;
       padding: 20px;
@@ -27,9 +26,24 @@
       color: #111;
     }
 
+    /* Estilo para o Logo solicitado */
+    .brand-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .main-logo {
+      width: 250px;
+      height: 250px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      object-fit: cover;
+      border: 2px solid #22d3ee;
+    }
+
     .section {
       background: #fff;
-      padding: 25px;
+      padding: 30px;
       border-radius: 14px;
       margin-bottom: 35px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.08);
@@ -42,11 +56,6 @@
       background: #fff;
       border-radius: 14px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-    }
-
-    .language-selector h2 {
-      margin-top: 0;
-      margin-bottom: 20px;
     }
 
     .language-buttons {
@@ -67,16 +76,11 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      font-size: 18px;
     }
 
     .language-buttons a:hover {
       background: #e0e0e0;
-      transform: scale(1.03);
-    }
-
-    .flag {
-      font-size: 28px;
+      transform: translateY(-2px);
     }
 
     hr {
@@ -94,86 +98,61 @@
       margin-top: 20px;
       text-decoration: none;
       font-size: 14px;
-      color: #0066cc;
-    }
-
-    .top-link:hover {
-      text-decoration: underline;
+      color: #22d3ee;
+      font-weight: bold;
     }
   </style>
 </head>
 
 <body>
 
-  <h1 style="text-align:center;">
-    Terms of Service / Termos de Uso
-  </h1>
+  <div class="brand-container">
+    <!-- Logotipo 250x250px conforme solicitado -->
+    <img src="logo.jpg" alt="W2 Quiz & Games Logo" class="main-logo">
+    <h1>W2 Quiz & Games</h1>
+    <p>Terms of Service / Termos de Uso</p>
+  </div>
 
-  <!-- Âncoras de idioma -->
   <div class="language-selector" id="top">
     <h2>🌎 Selecione o idioma / Select your language</h2>
-
     <div class="language-buttons">
-      <a href="#pt-br">
-        <span class="flag">🇧🇷</span>
-        Português
-      </a>
-
-      <a href="#en">
-        <span class="flag">🇺🇸</span>
-        English
-      </a>
+      <a href="#pt-br">🇧🇷 Português</a>
+      <a href="#en">🇺🇸 English</a>
     </div>
   </div>
 
   <!-- Português -->
   <div class="section" id="pt-br">
-    <h2>🇧🇷 Português (Brasil)</h2>
-
-    <p><strong>Última atualização:</strong> Maio de 2026</p>
+    <h2>🇧🇷 Termos de Uso (Brasil)</h2>
+    <p><strong>Última atualização:</strong> 14 de Maio de 2026</p>
 
     <p>
-      Este projeto publica vídeos de quizzes, perguntas, jogos e conteúdos de entretenimento em plataformas como TikTok e redes sociais similares.
+      Bem-vindo ao <strong>W2 Quiz & Games</strong>. Ao acessar nosso site ou utilizar nossas aplicações integradas ao TikTok, você concorda com os seguintes termos.
     </p>
 
-    <h3>1. Finalidade do Conteúdo</h3>
+    <h3>1. Escopo do Serviço</h3>
     <p>
-      Os vídeos possuem finalidade exclusivamente educativa, recreativa e de entretenimento.
+      O W2 Quiz & Games fornece conteúdos recreativos, jogos interativos e quizzes. Nossas aplicações podem exigir autenticação via TikTok Login Kit para salvar progressos e rankings.
     </p>
 
-    <h3>2. Uso do Conteúdo</h3>
+    <h3>2. Autenticação e Dados</h3>
     <p>
-      O usuário concorda em não copiar, redistribuir ou reutilizar os conteúdos de forma enganosa, fraudulenta ou ilegal.
+      Ao utilizar o "Login com TikTok", você autoriza o acesso às informações básicas do seu perfil público. Não armazenamos senhas ou dados sensíveis fora do escopo permitido pela API oficial do TikTok.
     </p>
 
-    <h3>3. Sistema de Pontuação e Jogos</h3>
+    <h3>3. Propriedade Intelectual</h3>
     <p>
-      Qualquer sistema de pontuação, ranking ou desafio apresentado nos vídeos é apenas ilustrativo e não possui valor financeiro ou premiação oficial, salvo indicação explícita.
+      Todo o conteúdo visual, logos (incluindo a marca W2) e códigos de software são de propriedade exclusiva deste projeto ou devidamente licenciados.
     </p>
 
-    <h3>4. Direitos Autorais</h3>
+    <h3>4. Conduta do Usuário</h3>
     <p>
-      Todos os vídeos, artes, textos e elementos visuais pertencem aos respectivos criadores ou possuem uso permitido/licenciado.
+      O usuário compromete-se a não utilizar ferramentas de automação (bots) para manipular pontuações nos jogos ou tentar contornar as medidas de segurança do site.
     </p>
 
-    <h3>5. Limitação de Responsabilidade</h3>
+    <h3>5. Isenção de Responsabilidade</h3>
     <p>
-      O conteúdo é fornecido “como está”, sem garantias de disponibilidade contínua, precisão absoluta ou adequação para qualquer finalidade específica.
-    </p>
-
-    <h3>6. Privacidade</h3>
-    <p>
-      Este projeto não coleta dados pessoais sensíveis diretamente dos usuários sem consentimento.
-    </p>
-
-    <h3>7. Plataformas de Terceiros</h3>
-    <p>
-      O uso dos conteúdos também está sujeito aos termos e políticas das plataformas onde os vídeos são publicados, incluindo TikTok, YouTube, Instagram e outras.
-    </p>
-
-    <h3>8. Alterações</h3>
-    <p>
-      Estes termos podem ser alterados a qualquer momento sem aviso prévio.
+      O serviço é fornecido "como está". Não garantimos que as funções de login ou postagem de conteúdo estarão disponíveis 100% do tempo devido a possíveis manutenções nas APIs de terceiros.
     </p>
 
     <a class="top-link" href="#top">⬆ Voltar ao topo</a>
@@ -183,52 +162,36 @@
 
   <!-- Inglês -->
   <div class="section" id="en">
-    <h2>🇺🇸 English</h2>
-
-    <p><strong>Last updated:</strong> May 2026</p>
+    <h2>🇺🇸 Terms of Service (Global)</h2>
+    <p><strong>Last updated:</strong> May 14, 2026</p>
 
     <p>
-      This project publishes quiz videos, games, questions, and entertainment content on platforms such as TikTok and similar social media services.
+      Welcome to <strong>W2 Quiz & Games</strong>. By accessing our website or using our TikTok-integrated applications, you agree to these terms.
     </p>
 
-    <h3>1. Purpose of the Content</h3>
+    <h3>1. Scope of Service</h3>
     <p>
-      The videos are intended solely for educational, recreational, and entertainment purposes.
+      W2 Quiz & Games provides recreational content, interactive games, and quizzes. Our apps may require authentication via TikTok Login Kit to save progress and rankings.
     </p>
 
-    <h3>2. Use of Content</h3>
+    <h3>2. Authentication and Data</h3>
     <p>
-      Users agree not to copy, redistribute, or reuse the content in any misleading, fraudulent, or unlawful manner.
+      By using "Login with TikTok", you authorize access to your basic public profile information. We do not store passwords or sensitive data outside the scope permitted by the official TikTok API.
     </p>
 
-    <h3>3. Scores and Game Features</h3>
+    <h3>3. Intellectual Property</h3>
     <p>
-      Any score system, ranking, or challenge shown in the videos is illustrative only and does not represent financial value or official prizes unless explicitly stated.
+      All visual content, logos (including the W2 brand), and software codes are the exclusive property of this project or are properly licensed.
     </p>
 
-    <h3>4. Copyright</h3>
+    <h3>4. User Conduct</h3>
     <p>
-      All videos, graphics, texts, and visual elements belong to their respective creators or are properly licensed/permitted for use.
+      Users agree not to use automation tools (bots) to manipulate game scores or attempt to bypass the website's security measures.
     </p>
 
     <h3>5. Limitation of Liability</h3>
     <p>
-      The content is provided “as is” without guarantees of continuous availability, absolute accuracy, or suitability for any specific purpose.
-    </p>
-
-    <h3>6. Privacy</h3>
-    <p>
-      This project does not directly collect sensitive personal data from users without consent.
-    </p>
-
-    <h3>7. Third-Party Platforms</h3>
-    <p>
-      The use of this content is also subject to the terms and policies of the platforms where the videos are published, including TikTok, YouTube, Instagram, and others.
-    </p>
-
-    <h3>8. Changes</h3>
-    <p>
-      These terms may be updated or modified at any time without prior notice.
+      The service is provided "as is". We do not guarantee that login or content posting functions will be available 100% of the time due to potential maintenance on third-party APIs.
     </p>
 
     <a class="top-link" href="#top">⬆ Back to top</a>
